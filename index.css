@@ -1,0 +1,86 @@
+.main-page {
+  background-color: #E68369;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.msg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 75px;
+  margin-bottom: 20px;
+}
+
+.hide {
+  display: none;
+}
+
+#msg {
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 30px;
+}
+.game-msg {
+  color: white;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 18px;
+}
+.new-game {
+  background-color: #C7FFD8;
+  height: 45px;
+  width: 120px;
+  font-family: Arial;
+  font-size: 20px;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.row-1, .row-2, .row-3 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 24px;
+}
+.box-0, .box-1, .box-2, .box-3, .box-4, .box-5, .box-6, .box-7, .box-8 {
+  background-color: aliceblue;
+  height: 120px;
+  width: 120px;
+  border: none;
+  border-radius: 8px;
+  margin-right: 14px;
+  cursor: pointer;
+}
+.reset-button {
+  background-color: #E3A5C7;
+  height: 45px;
+  width: 120px;
+  font-family: Arial;
+  font-size: 20px;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 28px;
+}
+
+.js-box {
+  font-family: Arial;
+  font-size: 60px;
+  font-weight: bold;
+  color: rgb(98, 4, 4);
+}
